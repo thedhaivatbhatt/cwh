@@ -10,13 +10,13 @@
 	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	<link rel="shortcut icon" href="theme/adminkit-3.1.0/static/img/icons/icon-48x48.png" />
 
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-blank.html" />
 
 	<title>Blank Page | AdminKit Demo</title>
 
-	<link href="css/app.css" rel="stylesheet">
+	<link href="admin/theme/adminkit-3.1.0/static/css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -24,7 +24,7 @@
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
-				<a class="sidebar-brand" href="index.html">
+				<a class="sidebar-brand" href="theme/adminkit-3.1.0/static/index.html">
           <span class="align-middle">AdminKit</span>
         </a>
 
@@ -34,31 +34,31 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="index.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/index.html">
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-profile.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/pages-profile.html">
               <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-sign-in.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/pages-sign-in.html">
               <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-sign-up.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/pages-sign-up.html">
               <i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Sign Up</span>
             </a>
 					</li>
 
 					<li class="sidebar-item active">
-						<a class="sidebar-link" href="pages-blank.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/pages-blank.html">
               <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
             </a>
 					</li>
@@ -68,31 +68,31 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="ui-buttons.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/ui-buttons.html">
               <i class="align-middle" data-feather="square"></i> <span class="align-middle">Buttons</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="ui-forms.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/ui-forms.html">
               <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Forms</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="ui-cards.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/ui-cards.html">
               <i class="align-middle" data-feather="grid"></i> <span class="align-middle">Cards</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="ui-typography.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/ui-typography.html">
               <i class="align-middle" data-feather="align-left"></i> <span class="align-middle">Typography</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="icons-feather.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/icons-feather.html">
               <i class="align-middle" data-feather="coffee"></i> <span class="align-middle">Icons</span>
             </a>
 					</li>
@@ -102,13 +102,13 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="charts-chartjs.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/charts-chartjs.html">
               <i class="align-middle" data-feather="bar-chart-2"></i> <span class="align-middle">Charts</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="maps-google.html">
+						<a class="sidebar-link" href="theme/adminkit-3.1.0/static/maps-google.html">
               <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
             </a>
 					</li>
@@ -121,7 +121,7 @@
 							Are you looking for more components? Check out our premium version.
 						</div>
 						<div class="d-grid">
-							<a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
+							<a href="theme/adminkit-3.1.0/static/upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
 						</div>
 					</div>
 				</div>
@@ -277,10 +277,10 @@
                 <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
-								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="theme/adminkit-3.1.0/static/pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+								<a class="dropdown-item" href="admin/theme/adminkit-3.1.0/static/index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Log out</a>
