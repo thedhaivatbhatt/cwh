@@ -1,5 +1,5 @@
 <?php
-    require_once("new folder/inc/header_part.php");
+    require_once("new folder/inc/headerpart.php");
 ?>
   </head>
   <body>
