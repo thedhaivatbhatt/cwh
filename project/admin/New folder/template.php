@@ -1,10 +1,10 @@
 <?php
-    require_once("new folder/inc/headerpart.php");
+    require_once("folder/inc/headerpart.php");
 ?>
   </head>
   <body>
    <?php 
-      require_once("new folder/inc/sidebar.php"); 
+      require_once("folder/inc/sidebar.php"); 
     ?>
     <main id="main" class="main">
       <div class="pagetitle">
@@ -26,6 +26,6 @@
         <!--end of row-->
       </section>
     </main>
-    <?php require_once("new folder/inc/script.php"); ?>
+    <?php require_once("folder/inc/script.php"); ?>
   </body>
 </html>
