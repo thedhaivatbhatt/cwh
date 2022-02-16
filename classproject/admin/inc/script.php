@@ -4,13 +4,13 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-    <script src="theme/niceadmin/assets/vendor/apexcharts/apexcharts.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/chart.js/chart.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/echarts/echarts.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/quill/quill.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/simple-datatables/simple-datatables.js"></script>
-    <script src="theme/niceadmin/assets/vendor/tinymce/tinymce.min.js"></script>
-    <script src="theme/niceadmin/assets/vendor/php-email-form/validate.js"></script>
-    <script src="theme/niceadmin/assets/js/main.js"></script>
+    <script src="theme/assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="theme/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="theme/assets/vendor/chart.js/chart.min.js"></script>
+    <script src="theme/assets/vendor/echarts/echarts.min.js"></script>
+    <script src="theme/assets/vendor/quill/quill.min.js"></script>
+    <script src="theme/assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="theme/assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="theme/assets/vendor/php-email-form/validate.js"></script>
+    <script src="theme/assets/js/main.js"></script>
     <!-- end of 3rd reusable part  -->

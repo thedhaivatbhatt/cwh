@@ -1,8 +1,8 @@
  <!-- start of 2nd reusable part -->
  <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
-        <a href="theme/niceadmin/index.html" class="logo d-flex align-items-center">
-          <img src="theme/niceadmin/assets/img/logo.png" alt="" />
+        <a href="theme/index.html" class="logo d-flex align-items-center">
+          <img src="theme/assets/img/logo.png" alt="" />
           <span class="d-none d-lg-block">Project Title</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -33,7 +33,7 @@
               <li>
                 <a
                   class="dropdown-item d-flex align-items-center"
-                  href="theme/niceadmin/users-profile.html"
+                  href="theme/users-profile.html"
                 >
                   <i class="bi bi-gear"></i>
                   <span>Change Password</span>
@@ -59,7 +59,7 @@
     <aside id="sidebar" class="sidebar">
       <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
-          <a class="nav-link collapsed" href="theme/niceadmin/index.html">
+          <a class="nav-link collapsed" href="theme/index.html">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
           </a>
