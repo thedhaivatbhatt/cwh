@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
     <link
-      href="theme/niceadmin/assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="../../theme/niceadmin/assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
