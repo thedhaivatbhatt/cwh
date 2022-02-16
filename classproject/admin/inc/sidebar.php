@@ -1,7 +1,7 @@
  <!-- start of 2nd reusable part -->
  <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
-        <a href="theme/index.html" class="logo d-flex align-items-center">
+        <a href="index.html" class="logo d-flex align-items-center">
           <img src="theme/assets/img/logo.png" alt="" />
           <span class="d-none d-lg-block">Project Title</span>
         </a>
@@ -20,7 +20,6 @@
                 >Settings</span
               > </a
             ><!-- End Profile Iamge Icon -->
-
             <ul
               class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
             >
@@ -33,7 +32,7 @@
               <li>
                 <a
                   class="dropdown-item d-flex align-items-center"
-                  href="theme/users-profile.html"
+                  href="users-profile.html"
                 >
                   <i class="bi bi-gear"></i>
                   <span>Change Password</span>
@@ -59,9 +58,45 @@
     <aside id="sidebar" class="sidebar">
       <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
-          <a class="nav-link collapsed" href="theme/index.html">
+          <a class="nav-link collapsed" href="index.html">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="advertisement.php">
+            <i class="bi bi-grid"></i>
+            <span>Advertisement</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="advertiser.php">
+            <i class="bi bi-grid"></i>
+            <span>Customer Management</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="feedback.php">
+            <i class="bi bi-grid"></i>
+            <span>Customer's Feeback</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="design_template.php">
+            <i class="bi bi-grid"></i>
+            <span>Template Management</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="operators.php">
+            <i class="bi bi-grid"></i>
+            <span>Operators Management</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="category.php">
+            <i class="bi bi-grid"></i>
+            <span>Category Management</span>
           </a>
         </li>
         <!-- End Dashboard Nav -->
