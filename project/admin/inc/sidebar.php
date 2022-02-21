@@ -26,7 +26,6 @@
              <div class="navbar-nav w-100">
                  <a href="theme/dashmin-1.0.0/signin.html" class="dropdown-item">Sign In</a>
                  <a href="theme/dashmin-1.0.0/signup.html" class="dropdown-item">Sign Up</a>
-                 <a href="theme/dashmin-1.0.0/404.html" class="dropdown-item">404 Error</a>
                  <a href="theme/dashmin-1.0.0/blank.html" class="dropdown-item active">Blank Page</a>
              </div>
      </div>
