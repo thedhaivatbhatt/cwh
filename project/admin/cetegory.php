@@ -132,7 +132,41 @@ require_once("inc/header.php");
                             </div>
                         </div>
                         <div class="card-body">
-                            <h1>content add</h1>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="card-titel border-bottom">Existing Categories</h5>
+                                    <table class="table datatale">
+                                        <thead>
+                                            <th scope="col">#</th>
+                                            <th scope="col">title</th>
+                                            <th scope="col">file</th>
+                                            <th scope="col">rate</th>
+                                            <th scope="col">ad type</th>
+                                            <th scope="col">type of <br> Advertise </th>
+                                            <th scope="col">page no</th>
+                                            <th scope="col">size</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>first ad <br>
+                                                    <a href='#'><i class="bi bi-trash-fill"></i></a>
+                                                    <a href='#'><i class="bi bi-pencil-square"></i></a>
+                                                </td>
+                                                <td>
+                                                    <img src="https://picsum.photos/100" class="img-fluid">
+                                                </td>
+                                                <td>200</td>
+                                                <td>News Paper</td>
+                                                <td>Black White</td>
+                                                <td>10</td>
+                                                <td>10x12</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
