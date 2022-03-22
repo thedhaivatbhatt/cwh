@@ -119,7 +119,7 @@ require_once("inc/header_part.php");
           <div class="card">
             <div class="card-body">
               <h5 class="card-title border-bottom">Existing Categories</h5>
-              <table class="table datatable bg-success table-striped">
+              <table class="table datatable  table-striped">
                 <thead>
                   <tr>
                     <th scope="col">#</th>

@@ -69,14 +69,47 @@ require_once("inc/header.php");
                                         </div>
                                     </div>
                                     <div class="text-end">
-                                    <button type="save" class="btn btn-primary">save</button>
-                                    <button type="reset" class="btn btn-secondary">reset</button>
+                                        <button type="save" class="btn btn-primary">save</button>
+                                        <button type="reset" class="btn btn-secondary">reset</button>
                                     </div>
-                                </form>
+                                </form><!-- end floating labels forms -->
                             </div>
-                            <div class="card-body">
-                                <h1>content add</h1>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title border-bottom">Existing Categories</h5>
+                                        <table class="table datatable">
+                                           <thead>
+                                               <tr>
+                                               <th scope="col">#</th> 
+                                               <th scope="col">Email</th> 
+                                               <th scope="col">Fullname</th> 
+                                               <th scope="col">Mobile</th> 
+                                               <th scope="col">BirthDate</th> 
+                                               <th scope="col">last login</th> 
+                                               <th scope="col">Operations</th> 
+                                            </tr>
+                                           </thead> 
+                                           <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>email@website.com</td>
+                    <td>abc xyz</td>
+                    <td>1234567890</td>
+                    <td>12th july 1988</td>
+                    <td>01-feb-2022</td>
+                    <td>
+                        <a href='#'><i class="bi bi-trash-fill"></i></a>
+                        <a href='#'><i class="bi bi-pencil-square"></i></a>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
