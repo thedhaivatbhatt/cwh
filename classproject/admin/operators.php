@@ -31,7 +31,7 @@
                   </div>
                 </div>
                 
-             
+                
                 <div class="col-md-4">
                   <div class="form-floating">
                     <input type="text" class="form-control" id="fullname" name='fullname' placeholder="Operator's fullname">
