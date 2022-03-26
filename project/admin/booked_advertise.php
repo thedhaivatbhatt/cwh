@@ -47,80 +47,63 @@ require_once("inc/header.php");
 						<div class="col-12">
 							<div class="card">
 								<div class="card-body">
-									<div class="float-start">
-										<h5 class="card-title border-bottom"> Rahul Mehta(001) - Due Payment</h5>
-									</div>
-									<div class="float-end mt-4">
+									<div>
+										<h5 style="display: inline;"> Rahul Mehta(001) - Due Payment</h5>
+										<span class="float-end" >
 										<a href="settled_advertise.php" class="btn btn-success">Settled Advertise(paid)</a>
+										</span>
+										<hr>
 									</div>
-									<div style="clear:both"></div>
-									<div class="dataTable-wrapper dataTable-loading no-footer sortable searchable fixed-columns">
-										<div class="dataTable-top">
-											<div class="dataTable-dropdown"><label><select class="dataTable-selector">
-														<option value="5">5</option>
-														<option value="10" selected="">10</option>
-														<option value="15">15</option>
-														<option value="20">20</option>
-														<option value="25">25</option>
-													</select> entries per page</label></div><br>
-											<div class="dataTable-search"><input class="dataTable-input" placeholder="Search..." type="text"></div>
-										</div>
-										<div class="dataTable-container">
-											<table class="table datatable dataTable-table">
-												<thead>
+									
 
-													<tr>
-														<th scope="col" data-sortable="" style="width: 4.32034%;"><a href="#" class="dataTable-sorter">#</a></th>
-														<th scope="col" data-sortable="" style="width: 16.9652%;"><a href="#" class="dataTable-sorter">Type of Ad</a></th>
-														<th scope="col" data-sortable="" style="width: 23.393%;" class="desc"><a href="#" class="dataTable-sorter">Template</a></th>
-														<th scope="col" data-sortable="" style="width: 19.4942%;"><a href="#" class="dataTable-sorter">Ad Booking Dt.</a></th>
-														<th scope="col" data-sortable="" style="width: 15.49%;"><a href="#" class="dataTable-sorter">Ad Dt.</a></th>
-														<th scope="col" data-sortable="" style="width: 8.32455%;"><a href="#" class="dataTable-sorter">Days</a></th>
-														<th scope="col" data-sortable="" style="width: 12.0126%;"><a href="#" class="dataTable-sorter">Amount</a></th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<th scope="row">1</th>
-														<td>Multicolor Ad</td>
-														<td>Front page mid size</td>
-														<td>01-feb-2022</td>
-														<td>10-feb-2022</td>
-														<td>1</td>
-														<td>2500</td>
-													</tr>
-												</tbody>
-											</table>
-											<script></script>
-										</div>
-										<div class="dataTable-bottom">
-											<div class="dataTable-info">Showing 1 to 1 of 1 entries</div>
-											<nav class="dataTable-pagination">
-												<ul class="dataTable-pagination-list"></ul>
-											</nav>
-										</div>
-									</div>
+									<table id="table_id" class="table datatable dataTable-table">
+										<thead>
+
+											<tr>
+												<th scope="col" data-sortable="" style="width: 4.32034%;"><a href="#" class="dataTable-sorter">#</a></th>
+												<th scope="col" data-sortable="" style="width: 16.9652%;"><a href="#" class="dataTable-sorter">Type of Ad</a></th>
+												<th scope="col" data-sortable="" style="width: 23.393%;" class="desc"><a href="#" class="dataTable-sorter">Template</a></th>
+												<th scope="col" data-sortable="" style="width: 19.4942%;"><a href="#" class="dataTable-sorter">Ad Booking Dt.</a></th>
+												<th scope="col" data-sortable="" style="width: 15.49%;"><a href="#" class="dataTable-sorter">Ad Dt.</a></th>
+												<th scope="col" data-sortable="" style="width: 8.32455%;"><a href="#" class="dataTable-sorter">Days</a></th>
+												<th scope="col" data-sortable="" style="width: 12.0126%;"><a href="#" class="dataTable-sorter">Amount</a></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td>Multicolor Ad</td>
+												<td>Front page mid size</td>
+												<td>01-feb-2022</td>
+												<td>10-feb-2022</td>
+												<td>1</td>
+												<td>2500</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-			</main>
-
-			<!-- Blank End -->
-
-
-			<!-- Footer Start -->
-			<?php
-			require_once("inc/footer.php");
-			?>
-			<!-- Footer End -->
 		</div>
-		<!-- Content End -->
+		</section>
+		</main>
+
+		<!-- Blank End -->
 
 
-		<!-- Back to Top -->
-		<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+		<!-- Footer Start -->
+
+		<?php
+		// require_once("inc/footer.php");
+		?>
+		<!-- Footer End -->
+	</div>
+	<!-- Content End -->
+
+
+	<!-- Back to Top -->
+	<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 	</div>
 
 	<!-- JavaScript Libraries -->
