@@ -32,7 +32,7 @@ require_once("inc/header.php");
                         
                         
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Send Password recovery email</button>
-                        <p class="text-center mb-0">Don't have an Account? <a href="index.php">Sign Up</a></p>
+                        <p class="text-center mb-0">Don't have an Account? <a href="signup.php">Sign Up</a></p>
                     </div>
                 </div>
             </div>
