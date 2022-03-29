@@ -15,6 +15,7 @@ require_once("inc/header.php");
 
 
         <!-- Sign In Start -->
+
         <div class="container-fluid">
             <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
                 <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
@@ -25,6 +26,7 @@ require_once("inc/header.php");
                             </a>
                             <h5>Change <br> Password</h5>
                         </div>
+                        <form action="" method="post">
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control" id="floatingPassword" required placeholder="Password">
                             <label for="floatingPassword">Existing Password</label>
@@ -39,9 +41,10 @@ require_once("inc/header.php");
                         </div>
                     </div>
                     <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Save</button>
-                                <button type="reset" class="btn btn-secondary">Reset</button>
-                            </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <input type="reset" class="btn btn-secondary" value="reset">
+                    </div>
+                        </form>
                     <p class="text-center mb-0">Don't have an Account? <a href="index.php">Sign in</a></p>
                 </div>
             </div>
