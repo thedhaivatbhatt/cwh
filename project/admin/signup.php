@@ -90,10 +90,10 @@ require_once("inc/header.php");
                                 </div>
                             </div>
                             <div class="text-end">
-                                        <button type="submit" class="btn btn-primary">Save</button>
-                                        <button type="reset" class="btn btn-secondary">Reset</button>
-                                    </div>
-                                    <p class="text-center mb-0">Already have Account? <a href="index.php">Sign in</a></p>
+                                <button type="submit" class="btn btn-primary">Save</button>
+                                <button type="reset" class="btn btn-secondary">Reset</button>
+                            </div>
+                            <p class="text-center mb-0">Already have Account? <a href="index.php">Sign in</a></p>
                         </form>
                     </div>
                 </div>
@@ -108,4 +108,4 @@ require_once("inc/header.php");
 </body>
 
 </html>
-<!-- Submit form --> 
+<!-- Submit form -->
