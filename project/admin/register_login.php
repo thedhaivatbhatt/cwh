@@ -13,7 +13,7 @@ require_once("inc/header.php");
                 <div class="col-md-6 col-sm-12">
 
                     <div class="card shadow m-3">
-                        <div class="card-header bg-danger ">
+                        <div class="card-header bg-secondary ">
                             <h3 class='text-white'>Register</h3>
                         </div>
                         <div class="card-body">
@@ -61,7 +61,7 @@ require_once("inc/header.php");
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="card shadow m-3">
-                        <div class="card-header bg-danger ">
+                        <div class="card-header bg-secondary ">
                             <h3 class='text-white'>Login</h3>
                         </div>
                         <div class="card-body">
