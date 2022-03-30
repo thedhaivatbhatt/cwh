@@ -23,7 +23,7 @@ require_once("inc/header.php");
                             <a href="index.html" class="">
                                 <h3 class="text-primary"></i>DASHMIN</h3>
                             </a>
-                            <h3>Sign Up</h3>
+                            <h5>Create Account</h5>
                         </div>
                         <form class="row g-3 needs-validation" novalidate="">
                             <div class="col-md-6">
@@ -61,19 +61,18 @@ require_once("inc/header.php");
                                 <label for="validationCustom04" class="form-label">State</label>
                                 <select class="form-select" id="validationCustom04" required="">
                                     <option selected="" disabled="" value="">Choose...</option>
-                                    <option>Bhavnagar</option>
-                                    <option>Ahamdabad</option>
-                                    <option>Rajkot</option>
-                                    <option>Baroda</option>
-                                    <option>Surat</option>
+                                    <option>Gujrat</option>
+                                    <option>Maharashat</option>
+                                    <option>Kolkata</option>
+                                    <option>Banglor</option>
                                 </select>
                                 <div class="invalid-feedback">
                                     Please select a valid state.
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label for="validationCustom05" class="form-label">Zip</label>
-                                <input type="text" class="form-control" id="validationCustom05" required="">
+                                <label for="validationCustom05" class="form-label">Date of Birth</label>
+                                <input type="date" class="form-control" id="dob" name="dob" placeholder="date of birth">
                                 <div class="invalid-feedback">
                                     Please provide a valid zip.
                                 </div>
