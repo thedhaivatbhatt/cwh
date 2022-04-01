@@ -62,14 +62,14 @@ https://templatemo.com/tm-569-edu-meeting
 					<nav class="main-nav">
 						<!-- ***** Logo Start ***** -->
 						<a href="index.html" class="logo">
-							Online Advertis Book
+							Online Advertise Book
 						</a>
 						<!-- ***** Logo End ***** -->
 						<!-- ***** Menu Start ***** -->
 						<ul class="nav">
 							<li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
 							<li><a href="meetings.html">Meetings</a></li>
-							<li class="scroll-to-section"><a href="#apply">Advertis Type</a></li>
+							<li class="scroll-to-section"><a href="#apply">Advertise Type</a></li>
 							<li class="has-sub">
 								<a href="javascript:void(0)">Pages</a>
 								<ul class="sub-menu">
@@ -100,7 +100,7 @@ https://templatemo.com/tm-569-edu-meeting
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="caption">
-							<h6>Book Advertis</h6>
+							<h6>Book Advertise</h6>
 							<h2>Welcome to Advertiser</h2>
 							<p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
 							<div class="main-button-red">
@@ -290,7 +290,7 @@ https://templatemo.com/tm-569-edu-meeting
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="item">
-								<h3>classified Advertis Details</h3>
+								<h3>classified Advertise Details</h3>
 								<p>There are two types of classified ad such as Classified Text Ad and Classified Display Ad. Classified Text Ad is the most cost-effective forms of advertising in any Newspaper. The Ads appear in the classified section in the standard running text format. Rate is charged per Line/Word/Character basis. Enhancements like tick mark, colour, bold font, border lead to extra charges. Classified Display Ad is more visually appealing than classified text ads. Here one can add customized font, colour, logo or image to make the ad visually more effective for the target readers. These ads are charged on the basis of per sq.</p>
 								<div class="main-button-red">
 									<div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
@@ -299,7 +299,7 @@ https://templatemo.com/tm-569-edu-meeting
 						</div>
 						<div class="col-lg-12">
 							<div class="item">
-								<h3>Display Advertis Details</h3>
+								<h3>Display Advertise Details</h3>
 								<p>Display advertisements are the most extravagant form of newspaper advertising. They can be published on any page and can occupy any amount of space in a specific newspaper page.</p>
 								<div class="main-button-yellow">
 									<div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
@@ -319,7 +319,7 @@ https://templatemo.com/tm-569-edu-meeting
 							</div>
 							<div class="accordion-body">
 								<div class="content">
-									<p>This is Tachukadi(Classified) Advertis it will be charged per Line /Word /Character basis. If you can see demo visit <br><a rel="nofollow" href="img/ભાવનગર ગુજરાત સમાચાર_page-0018.jpg" target="_blank" >Tachukadi(Classified) Gujarat Samachar</a><br><a rel="nofollow" href="img/document_page-0012.jpg" target="_blank" >Tachukadi(Classified) Saurashtra Samachar</a><br><a rel="nofollow" href="img/epaper-82139-545666_page-0001.jpg" target="_blank" >Tachukadi(Classified) Sandesh Samachar</a>. <br> If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
+									<p>This is Tachukadi(Classified) Advertise it will be charged per Line /Word /Character basis. If you can see demo visit <br><a rel="nofollow" href="img/ભાવનગર ગુજરાત સમાચાર_page-0018.jpg" target="_blank" >Tachukadi(Classified) Gujarat Samachar</a><br><a rel="nofollow" href="img/document_page-0012.jpg" target="_blank" >Tachukadi(Classified) Saurashtra Samachar</a><br><a rel="nofollow" href="img/epaper-82139-545666_page-0001.jpg" target="_blank" >Tachukadi(Classified) Sandesh Samachar</a>. <br> If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
 								</div>
 							</div>
 						</article>
