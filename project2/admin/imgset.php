@@ -476,7 +476,9 @@ require_once("inc/header.php");
 
 	<!-- Scripts -->
 	<!-- Bootstrap core JavaScript -->
-	
+	<?php
+		require_once("inc/script.php");
+	?>
 </body>
 
 </body>
