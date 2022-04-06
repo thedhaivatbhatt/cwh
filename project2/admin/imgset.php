@@ -29,7 +29,7 @@ require_once("inc/head.php");
 
 	<!-- ***** Header Area Start ***** -->
 	<?php
-		require_once("inc/header.php");
+	require_once("inc/header.php");
 	?>
 	<!-- ***** Header Area End ***** -->
 
@@ -234,8 +234,9 @@ require_once("inc/head.php");
 							<div class="item">
 								<h3>classified Advertise Details</h3>
 								<p>There are two types of classified ad such as Classified Text Ad and Classified Display Ad. Classified Text Ad is the most cost-effective forms of advertising in any Newspaper. The Ads appear in the classified section in the standard running text format. Rate is charged per Line/Word/Character basis. Enhancements like tick mark, colour, bold font, border lead to extra charges. Classified Display Ad is more visually appealing than classified text ads. Here one can add customized font, colour, logo or image to make the ad visually more effective for the target readers. These ads are charged on the basis of per sq.</p>
-								<div class="main-button-red">
-									<div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+								<div class="text-end scroll-to-section">
+									<a href="#contact"><button class="btn btn-danger">Join Us Now!</button></a>
+									<button type="submit" class="btn btn-primary">Save</button>
 								</div>
 							</div>
 						</div>
@@ -261,7 +262,7 @@ require_once("inc/head.php");
 							</div>
 							<div class="accordion-body">
 								<div class="content">
-									<p>This is Tachukadi(Classified) Advertise it will be charged per Line /Word /Character basis. If you can see demo visit <br><a rel="nofollow" href="img/ભાવનગર ગુજરાત સમાચાર_page-0018.jpg" target="_blank" >Tachukadi(Classified) Gujarat Samachar</a><br><a rel="nofollow" href="img/document_page-0012.jpg" target="_blank" >Tachukadi(Classified) Saurashtra Samachar</a><br><a rel="nofollow" href="img/epaper-82139-545666_page-0001.jpg" target="_blank" >Tachukadi(Classified) Sandesh Samachar</a>. <br> If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
+									<p>This is Tachukadi(Classified) Advertise it will be charged per Line /Word /Character basis. If you can see demo visit <br><a rel="nofollow" href="img/ભાવનગર ગુજરાત સમાચાર_page-0018.jpg" target="_blank">Tachukadi(Classified) Gujarat Samachar</a><br><a rel="nofollow" href="img/document_page-0012.jpg" target="_blank">Tachukadi(Classified) Saurashtra Samachar</a><br><a rel="nofollow" href="img/epaper-82139-545666_page-0001.jpg" target="_blank">Tachukadi(Classified) Sandesh Samachar</a>. <br> If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
 								</div>
 							</div>
 						</article>
@@ -314,7 +315,7 @@ require_once("inc/head.php");
 	</section>
 
 	<?php
-		require_once("visit_page.php");
+	require_once("visit_page.php");
 	?>
 
 	<section class="our-facts">
@@ -377,7 +378,7 @@ require_once("inc/head.php");
 							<form id="contact" action="" method="post">
 								<div class="row">
 									<div class="col-lg-12">
-										<h2>Let's get in touch</h2>
+										<h2>classified Advertise</h2>
 									</div>
 									<div class="col-lg-4">
 										<fieldset>
@@ -394,8 +395,37 @@ require_once("inc/head.php");
 											<input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
 										</fieldset>
 									</div>
+									<div class="col-lg-4">
+										Category
+										<select class="form-select" aria-label="Default select">
+											<option selected="">Select Category</option>
+											<option value="1">Automobiles</option>
+											<option value="2">Job Recruitment</option>
+											<option value="3">Lagan Vishayak</option>
+											<option value="4">Property</option>
+											<option value="5">Vyavsailaxi</option>
+										</select>
+									</div>
+									<div class="col-lg-4">
+										Sub-Category
+										<select class="form-select" aria-label="Default select">
+											<option selected="">Select sub Category</option>
+											<option value="1">One</option>
+											<option value="2">Joia che</option>
+											<option value="3">Lagan Vishayak</option>
+										</select>
+									</div>
+									<div class="col-lg-4">
+										Sub-Child-Category
+										<select class="form-select" aria-label="Default select">
+											<option selected="">Select Sub Child Category</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+										</select>
+									</div>
 									<div class="col-lg-12">
-										<fieldset>
+										<br><fieldset>
 											<textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
 										</fieldset>
 									</div>
@@ -446,7 +476,7 @@ require_once("inc/head.php");
 	<!-- Scripts -->
 	<!-- Bootstrap core JavaScript -->
 	<?php
-		require_once("inc/script.php");
+	require_once("inc/script.php");
 	?>
 </body>
 
