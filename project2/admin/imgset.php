@@ -410,18 +410,21 @@ require_once("inc/head.php");
 										Sub-Category
 										<select class="form-select" aria-label="Default select">
 											<option selected="">Select sub Category</option>
-											<option value="1">One</option>
+											<option value="1">one</option>
 											<option value="2">Joia che</option>
 											<option value="3">Lagan Vishayak</option>
+											<option value="4">bhade joia che</option>
+											<option value="5">bhade aapvanu che</option>
+											<option value="6">vechvanu che</option>
 										</select>
 									</div>
 									<div class="col-lg-4">
 										Sub-Child-Category
 										<select class="form-select" aria-label="Default select">
 											<option selected="">Select Sub Child Category</option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
+											<option value="1">Lagan Vishayak Genral</option>
+											<option value="2">Data Entry</option>
+											<option value="3"></option>
 										</select>
 									</div>
 									<div class="col-lg-12">
