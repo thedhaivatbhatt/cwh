@@ -268,15 +268,14 @@ require_once("inc/head.php");
 						</article>
 						<article class="accordion">
 							<div class="accordion-head">
-								<span>HTML CSS Bootstrap Layout</span>
+								<span>About Display Ad(Commercial)</span>
 								<span class="icon">
 									<i class="icon fa fa-chevron-right"></i>
 								</span>
 							</div>
 							<div class="accordion-body">
 								<div class="content">
-									<p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a elit massa.<br><br>
-										Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+									<p>Commercial advertisement means an advertising message designed for delivery through a motion picture film or video medium to attract the attention of consumers or influence consumers' feelings toward a particular product, service, event or cause.</p>
 								</div>
 							</div>
 						</article>

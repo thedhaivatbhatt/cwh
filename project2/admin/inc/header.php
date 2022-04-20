@@ -21,7 +21,7 @@
                               </ul>
                           </li>
                           <li class="scroll-to-section"><a href="#courses">E-Paper</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                          <li class="scroll-to-section"><a href="#contact">Book Classified</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
