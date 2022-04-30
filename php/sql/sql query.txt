@@ -1,0 +1,47 @@
+create table person(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    fullname varchar(128) NOT NULL,
+    email varchar(128) unique,
+    dob date,
+    weight int(3) check (weight>0),
+    gender char(1) check (gender='m' or gender='f')
+);
+
+first method
+insert into category values(0,'books','good books','2022-04-06',1)
+second method 
+insert into category (name,detail) values('snickers','good to wear')
+third method 
+    insert into category (name,detail) values
+    ('jeans','good to wear'),
+    ('t-shirt','good to wear'),
+    ('shirts','good to wear')
+
+delete 
+delete all row 
+delete from category 
+
+
+delete specific row(s)
+------------------------------
+delete from category where id=1
+
+update all rows 
+update category set status=0
+
+update specific rows 
+update category set status=1 where id<=4
+
+update multiple fields
+update category set name=upper(name),detail=upper(detail) where id<=4
+
+update category set status=status+1
+
+alter table 
+ALTER TABLE category ADD likes int(11) default 0;
+
+ALTER TABLE category MODIFY COLUMN detail varchar(256);
+
+drop column 
+alter table drop column likes 
+
