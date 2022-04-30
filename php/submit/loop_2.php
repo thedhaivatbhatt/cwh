@@ -39,7 +39,8 @@ if ($validation->fails()) {
     $choice = $_POST['loop'];
     echo "row = $rows columns = $columns choice = $choice";
 
-    switch ($choice) {
+    switch ($choice) 
+    {
         case 1: //choice==1 while loop 
             CreateTable('80%', 'center', 1, 'yellow');
             $row = 1; //1 //initilization
