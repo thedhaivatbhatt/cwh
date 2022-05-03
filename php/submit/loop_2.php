@@ -86,5 +86,5 @@ if ($validation->fails()) {
                 $row = $row + 1;
             } while ($row <= $rows);
             EndTable();
-            
+            break;
     }
