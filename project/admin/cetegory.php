@@ -40,7 +40,8 @@ require_once("inc/header.php");
                                 <h5 class="card-title">Add new category</h5>
                             </div>
                             <div class="card-body">
-                                <form class="row g-3">
+                            <form  method="post" enctype="multipart/form-data" action="submit/insert_category.php">
+                                <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id='title' name='title' placeholder="Category title" required>
@@ -127,6 +128,7 @@ require_once("inc/header.php");
                                     <div class="text-end">
                                         <button type="submit" class="btn btn-primary">Save</button>
                                         <button type="reset" class="btn btn-secondary">Reset</button>
+                                    </div>
                                     </div>
                                 </form><!-- End floating Labels Form -->
                             </div>

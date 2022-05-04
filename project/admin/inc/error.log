@@ -1,0 +1,5 @@
+
+ Error Code42S22 ErrorDetail Unknown column 'adsize' in 'field list' on occured at Wed04-05-202202:49:38PM in file C:\wamp64\www\cwh\project\admin\submit\insert_category.php at lineno 0
+ Error Code42S22 ErrorDetail Unknown column 'adsize' in 'field list' on occured at Wed04-05-202202:49:43PM in file C:\wamp64\www\cwh\project\admin\submit\insert_category.php at lineno 0
+ Error Code42S22 ErrorDetail Unknown column 'sampleimage' in 'field list' on occured at Wed04-05-202202:53:25PM in file C:\wamp64\www\cwh\project\admin\submit\insert_category.php at lineno 0
+ Error Code42S22 ErrorDetail Unknown column 'sampleimage' in 'field list' on occured at Wed04-05-202202:56:04PM in file C:\wamp64\www\cwh\project\admin\submit\insert_category.php at lineno 0
