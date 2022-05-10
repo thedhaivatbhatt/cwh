@@ -49,7 +49,7 @@ require_once("inc/header.php");
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title border-bottom">Existing Customer</h5>
-                                    <table class="table datatable">
+                                    <table id="table_id" class="table datatable dataTable-table">
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>

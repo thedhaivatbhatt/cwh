@@ -78,7 +78,7 @@ require_once("inc/header.php");
                                 <div class="col-12">
                                     <div class="card-body">
                                         <h5 class="card-title border-bottom">Existing Categories</h5>
-                                        <table class="table datatable">
+                                        <table id="table_id" class="table datatable dataTable-table">
                                            <thead>
                                                <tr>
                                                <th scope="col">#</th> 

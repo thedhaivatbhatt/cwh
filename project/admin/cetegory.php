@@ -167,7 +167,7 @@ require_once("inc/connection.php");
                                                         <a href='#'><i class="bi bi-pencil-square"></i></a>
                                                     </td>
                                                     <td>
-                                                        <img src="/images/category/<?php echo $sampleimage ?>" width="80px">
+                                                        <img src="images/category/<?php echo $sampleimage ?>" width="100px">
                                                     </td>
                                                     <td><?php echo $rate ?></td>
                                                     <td>
