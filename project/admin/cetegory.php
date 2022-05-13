@@ -138,7 +138,7 @@ require_once("inc/connection.php");
                             <div class="row">
                                 <div class="col-12">
                                     <h5 class="card-titel border-bottom">Existing Categories</h5>
-                                    <table id="table_id" class="table datatable dataTable-table">
+                                    <table id="table_id" class="table datatable dataTable-table border">
                                         <thead>
                                             <th scope="col">#</th>
                                             <th scope="col">title</th>
