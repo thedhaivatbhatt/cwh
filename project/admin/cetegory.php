@@ -163,7 +163,7 @@ require_once("inc/connection.php");
                                                 <tr>
                                                     <td scope="row"><?php echo $count++; ?></td>
                                                     <td><?php echo $title; ?> <br>
-                                                        <a href='#'><i class="bi bi-trash-fill"></i></a>
+                                                        <a href='delete_cetegory.php?categoryid=<?php echo $row['id']; ?>&photo=<?php echo $row['sampleimage']; ?>'><i class="bi bi-trash-fill"></i></a>
                                                         <a href='#'><i class="bi bi-pencil-square"></i></a>
                                                     </td>
                                                     <td>
