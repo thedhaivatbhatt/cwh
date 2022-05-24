@@ -155,10 +155,18 @@ require_once("inc/connection.php");
                                             $statement = $db->prepare($sql);
                                             $statement->execute();
                                             $count = 1;
-                                            while ($row = $statement->fetch()) {
+                                            while ($row = $statement->fetchAll()) {
                                                 extract($row);
                                                 // var_dump($row);
-
+                                            } 
+                                            catch (PDOException $error) {
+                                              LogError($error, __FILE__);
+                                            }
+                                            require("inc/message.php");
+                                            if(isset($table)==true)
+                                            {
+                                                foreach($table as $row)
+                                                {
                                             ?>
                                                 <tr>
                                                     <td scope="row"><?php echo $count++; ?></td>
