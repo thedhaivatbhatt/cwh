@@ -36,6 +36,7 @@ require_once("inc/connection.php");
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <h3>Category Management</h3>
+                       <!-- //  require("inc/message.php");  -->
                         <div class="card mt-2">
                             <div class="card-header">
                                 <h5 class="card-title">Add new category</h5>
@@ -155,23 +156,13 @@ require_once("inc/connection.php");
                                             $statement = $db->prepare($sql);
                                             $statement->execute();
                                             $count = 1;
-                                            while ($row = $statement->fetchAll()) {
+                                            while ($row = $statement->fetch()) {
                                                 extract($row);
-                                                // var_dump($row);
-                                            } 
-                                            catch (PDOException $error) {
-                                              LogError($error, __FILE__);
-                                            }
-                                            require("inc/message.php");
-                                            if(isset($table)==true)
-                                            {
-                                                foreach($table as $row)
-                                                {
                                             ?>
                                                 <tr>
                                                     <td scope="row"><?php echo $count++; ?></td>
                                                     <td><?php echo $title; ?> <br>
-                                                        <a href='delete_cetegory.php?categoryid=<?php echo $row['id']; ?>&photo=<?php echo $row['sampleimage']; ?>'><i class="bi bi-trash-fill"></i></a>
+                                                        <a href='cetegory_delete.php?categoryid=<?php echo $row['id']; ?>&photo=<?php echo $row['sampleimage']; ?>'><i class="bi bi-trash-fill"></i></a>
                                                         <a href='#'><i class="bi bi-pencil-square"></i></a>
                                                     </td>
                                                     <td>
