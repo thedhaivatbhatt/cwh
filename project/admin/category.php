@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once("inc/header.php");
 require_once("inc/connection.php");
 ?>
@@ -37,11 +38,11 @@ require_once("inc/connection.php");
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <h3>Category Management</h3>
                        <!-- //  require("inc/message.php");  -->
-                        <div class="card mt-2">
-                            <div class="card-header">
+                       <div class="card mt-2">
+                           <div class="card-header">
+                                <div class="card-body">
                                 <h5 class="card-title">Add new category</h5>
                             </div>
-                            <div class="card-body">
                                 <form method="post" enctype="multipart/form-data" action="submit/insert_category.php">
                                     <div class="row g-3">
                                         <div class="col-md-6">
@@ -160,15 +161,15 @@ require_once("inc/connection.php");
                                                 extract($row);
                                             ?>
                                                 <tr>
-                                                    <td scope="row"><?php echo $count++; ?></td>
-                                                    <td><?php echo $title; ?> <br>
+                                                    <td scope="row"><?= $count++; ?></td>
+                                                    <td><?= $title; ?> <br>
                                                         <a href='cetegory_delete.php?categoryid=<?php echo $row['id']; ?>&photo=<?php echo $row['sampleimage']; ?>'><i class="bi bi-trash-fill"></i></a>
-                                                        <a href='#'><i class="bi bi-pencil-square"></i></a>
+                                                        <a href='edit_category.php?categoryid=<?php echo $row['id']; ?>&photo=<?php echo $row['sampleimage']; ?>'><i class="bi bi-pencil-square"></i></a>
                                                     </td>
                                                     <td>
                                                         <img src="images/category/<?php echo $sampleimage ?>" width="100px">
                                                     </td>
-                                                    <td><?php echo $rate ?></td>
+                                                    <td><?= $rate ?></td>
                                                     <td>
                                                         <?php
                                                         if ($adtype == 1) {

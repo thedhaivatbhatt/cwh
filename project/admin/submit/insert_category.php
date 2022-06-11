@@ -25,5 +25,5 @@
     {
         LogError($error,__FILE__);
     }
-     header("Location:../cetegory.php");
+     header("Location:../category.php");
 ?>

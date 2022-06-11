@@ -13,5 +13,5 @@ require_once("inc/connection.php");
 // catch(PDOException $error){
 //     LogError($error,__FILE__);
 // }
- header("Location:cetegory.php");
+ header("Location:category.php");
 ?>
