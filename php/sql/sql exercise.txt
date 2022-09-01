@@ -1,0 +1,25 @@
+SQL test 
+
+1) write a query to insert a new record in to payment table
+
+
+2) write a query to delete record from customer table whose customerNumber is 120
+
+
+3) update products table increase product scale by 1 of those product whose product line is  Motorcycle
+
+
+4) display those office detail whose country is USA and state is ca
+
+
+5) display those customer detail whose companyName has co. in between
+
+6) display total payment, average payment made in year 2004
+
+7) display those payment detail which has been made in may-2004
+
+8) display those product whose quantity in stock is less then average quantity of stock 
+
+9) display payment amount, and customer Name and his city of those customer who are from USA 
+
+10) display customerNumber & name & city,state & country who are from usa
