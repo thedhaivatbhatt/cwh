@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">simple interest calculator</h1>
+    <hr>
+    <form action="">
+        <table align="center" border="1" cellpadding="10" width="50%">
+            <tr>
+                <td>Enter first number</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="p" id="p">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter second number
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="t" id="t">
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>
+                    Enter third number
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="r" id="r">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="simple interest" onclick="simpleinterest();">
+                </td>
+            </tr>
+            <tr>
+                <td id="result">
+                    result will be displayed here
+                </td>
+            </tr>
+
+        </table>
+        <!-- Javascript Program to Enter the P, T, R, and Calculate it's Simple Interest -->
+        <script type="text/javascript">
+            var p, t, r, SI;
+            function getinput() {
+                p = document.getElementById("p").value;
+                t = document.getElementById("t").value;
+                r = document.getElementById("r").value;
+                p = parseInt(p)
+                t = parseInt(t);
+                r = parseInt(r);
+            }
+
+
+
+            // p = principal
+            // t = time
+            // r = rate
+            // SI = simple interest
+
+            // Calculate simple interest
+            // p = p;
+            // t = t;
+            // r = r;
+
+            function simpleinterest() {
+                getinput(); //calling getinput function
+                var simpleinterest = p * t * r / 100; // local variable
+                
+                // Output
+                // document.write("SimpleInterest = " + simpleinterest);
+                document.getElementById("result").innerHTML = simpleinterest;
+            }
+        </script>
+
+</body>
+
+</html>

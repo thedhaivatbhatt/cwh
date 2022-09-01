@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Ajax - INSERT UPDATE DELETE SELECT</h1>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <form action="" class="row" id="myform" method="post">
+                            <div class="col-auto">
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name">
+                            </div>
+                            <div class="col-auto">
+                                <input type="number" class="form-control" placeholder="class" id="class" name="class">
+                            </div>
+                            <div class="col-auto">
+                                <input type="number" class="form-control" placeholder="marks" id="marks" name="marks">
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check">
+                                    <input  class="form-check-input" type="radio" name="gender" id="male" value="1">
+                                    <label class="form-check-label" for="male">
+                                      Male
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input  class="form-check-input" type="radio" name="gender" id="female" value="0">
+                                    <label class="form-check-label" for="female">
+                                      female
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" id="btnadd" class="btn btn-primary btn-lg">Add student</button>
+                            </div>
+                            <input type="hidden" name="studentid" id="studentid" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 border-bottom">
+                <h2>Existing Students</h2>
+            </div>
+            <div class="col-12">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>Name</th>
+                                    <th>Class</th>
+                                    <th>Marks</th>
+                                    <th>Gender</th>
+                                    <th>Edit </th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody id="output">
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        var count = 1;
+        var row=null;
+        var name,StudentClass,marks;
+        var gender = "Male";
+        function getData()
+        {
+            var PageAddress = "ajax/get-students.php";
+            $.ajax(
+            {
+                url:PageAddress
+            }).done(function(data)
+            {
+               //console.log(data);
+               var students = $.parseJSON(data); //convert string into json array 
+               //console.log(students);
+               var size = students.length;
+               for(var i=0;i<size;i++)
+               {
+                    //console.log(students[i].mark);
+                    var newrow = `<tr><td>${i+1}</td><td>${students[i].name}</td><td>${students[i].class}</td><td>${students[i].mark}</td><td>${students[i].gender}</td><td><i id=${students[i].id} class='fas fa-edit edit' style='cursor:pointer'></i></td><td><i id='${students[i].id}-delete' class='fas fa-trash delete' style='cursor:pointer'></i></td></tr>`;
+                    $("#output").append(newrow);
+               }
+            });
+        }
+        $(document).ready(function(){
+            console.log("Jquery working....");
+            getData();
+            $("#btnadd").click(function(){
+                name = $("#name").val();
+                marks = $("#marks").val();
+                StudentClass = $("#class").val();
+                var SelectedRadioButtonValue = $("input[name='gender']:checked").val();
+                //console.log(SelectedRadioButtonValue+"this is radio");
+                if(SelectedRadioButtonValue==0)
+                    gender = "Female";
+                else
+                    gender="Male";
+                var label = $(this).html();
+                var PageAddress = "ajax/insert-update-student.php";
+                if(label=="Add student")
+                {
+                    //submit whole form on server 
+                   
+                    $.post(PageAddress,$("#myform").serialize(),function(data,status){
+                        console.log(status);
+                        console.log(data);
+                        //add new row into webpage
+                        var NewStudentId = data;
+                        var newrow = `<tr><td>${count}</td><td>${name}</td><td>${StudentClass}</td><td>${marks}</td><td>${gender}</td><td><i id=${NewStudentId} class='fas fa-edit edit' style='cursor:pointer'></i></td><td><i id='${NewStudentId}-delete' class='fas fa-trash delete' style='cursor:pointer'></i></td></tr>`;
+                        $("#output").append(newrow);
+                        count++;
+                        $(".form-control").val("");
+                    });
+                   
+                }
+                else 
+                {     
+                    $.post(PageAddress,$("#myform").serialize(),function(data,status){
+                        console.log(status);
+                        console.log(data);
+                        $(row).find("td").eq(1).html(name);
+                        $(row).find("td").eq(2).html(StudentClass);
+                        $(row).find("td").eq(3).html(marks);
+                        $(row).find("td").eq(4).html(gender);
+                        $("#btnadd").html("Add student").removeClass("bg-warning").addClass("bg-primary");
+                        $("#studentid").val("");
+                    });               
+                }
+            });
+            $("body").on("click",".delete",function(){
+                //alert("delete");
+                var id = $(this).attr("id");
+                id = id.substring(0,id.indexOf("-"));
+                var row =  $(this).parent().parent();
+                var PageAddress = "ajax/delete-student.php?studentid=" + id;
+                $.get(PageAddress,function(data,status){
+                    console.log(data + " " + status);
+                    $(row).addClass("bg-warning text-white").slideUp("slow");
+                });
+            });
+            $("body").on("click",".edit",function(){
+               var studentid = $(this).attr("id");
+               $("#studentid").val(studentid);
+               row = $(this).parent().parent();
+               name = $(row).find("td").eq(1).html();
+               StudentClass = $(row).find("td").eq(2).html();
+               marks = $(row).find("td").eq(3).html();
+               gender = $(row).find("td").eq(4).html();
+               
+               $("#name").val(name);
+               $("#class").val(StudentClass);
+               $("#marks").val(marks);
+               $("#btnadd").html("save changes").removeClass("bg-primary").addClass("bg-warning");
+               if(gender=="Male")
+                {
+                    $("#male").prop("checked",true);
+                }
+                else 
+                {
+                    $("#female").prop("checked",true);
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
