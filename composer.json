@@ -1,0 +1,17 @@
+{
+    "name": "mahadev/cwh",
+    "autoload": {
+        "psr-4": {
+            "Mahadev\\Cwh\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thedhaivatbhatt",
+            "email": "95678661+thedhaivatbhatt@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "rakit/validation": "^1.4"
+    }
+}
